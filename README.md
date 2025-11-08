@@ -29,32 +29,10 @@ Built using **FastAPI** for a robust Python backend and **React** with **Tailwin
 ---
 
 ## 📂 Project Structure
-ai-quiz-generator/
-├── backend/
-│   ├── main.py                  # FastAPI app (API endpoints)
-│   ├── database.py              # SQLAlchemy ORM + database setup
-│   ├── scrapper.py              # Wikipedia scraper
-│   ├── llm_quiz_generator.py    # Gemini + LangChain logic
-│   ├── requirements.txt         # Backend dependencies
-│   └── .env                     # Environment variables (ignored in git)
-│
-├── frontend/
-│   ├── src/
-│   │   ├── tabs/
-│   │   │   ├── GenerateQuizTab.jsx
-│   │   │   └── HistoryTab.jsx
-│   │   ├── components/
-│   │   │   └── QuizDisplay.jsx
-│   │   ├── services/
-│   │   │   └── api.js
-│   │   ├── App.jsx
-│   │   ├── index.css
-│   │   └── main.jsx
-│   ├── package.json
-│   ├── vite.config.js
-│   └── tailwind.config.js
-│
-└── README.md
+
+The project is logically divided into the `backend` (FastAPI/Python) and `frontend` (React/Vite) directories.
+<img width="304" height="901" alt="image" src="https://github.com/user-attachments/assets/9ff2e57c-92f8-4cc5-8b3a-811ceeb90ce7" />
+
 ---
 
 ## ⚙️ Setup and Installation
