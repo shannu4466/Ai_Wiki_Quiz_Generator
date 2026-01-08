@@ -144,3 +144,15 @@ The FastAPI backend exposes the following primary endpoints for interacting with
 3.  **AI Generation:** The content is passed to `llm_quiz_generator.py`, which uses **LangChain** and the **Gemini LLM** to process the text and generate a structured JSON output (summary, entities, quiz questions).
 4.  **Data Persistence:** The generated data, including the raw content and the full quiz JSON, is saved to the **`quizzes`** table using **SQLAlchemy** (connected to SQLite/MySQL).
 5.  **Output Display:** The full quiz data is returned to the frontend and displayed immediately in the `QuizDisplay` component, and the entry is updated in the **History Tab**.
+
+---
+
+## 🧮 Sample output screenshots
+
+Home Page
+<img width="1904" height="973" alt="image" src="https://github.com/user-attachments/assets/62ad24e3-992e-488d-8d11-e5f2ae8c71ee" />
+History
+<img width="1919" height="971" alt="image" src="https://github.com/user-attachments/assets/e89c4fd5-5f22-4a3f-9dd5-1271c88dde11" />
+<img width="1919" height="945" alt="image" src="https://github.com/user-attachments/assets/0624e667-5c29-4e03-874b-3fd88ad5fb60" />
+
+
